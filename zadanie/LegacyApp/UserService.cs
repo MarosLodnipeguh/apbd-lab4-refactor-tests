@@ -32,8 +32,7 @@ namespace LegacyApp
             }
 
             var user = CreateUser(firstName, lastName, email, client, dateOfBirth);
-
-
+            
             // set credit limit based on client type
             switch (client.Type)
             {
